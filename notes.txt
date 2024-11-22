@@ -1,0 +1,7 @@
+- We import service in controller's constructor
+- Injectable makes it singletone shared across the whole application
+- private in constructor - taskService parameter is a property of a TaskController
+
+- taskService owns the business logic
+- controller is a entry point communicate with service and return the result
+- adding private keyword in service means only this service has access to it not controller
